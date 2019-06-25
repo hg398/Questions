@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+	freopen("in48.txt","w",stdout);
+	srand(time(NULL));
+	int n=rand()%10000 + 1;
+	cout<<n;
+	cout<<"\n";
+	int len=n;
+	char c;
+	while(len--){
+		int x=rand()%26;
+		c='A'+x;
+		cout<<c;
+	}
+	return 0;
